@@ -10,7 +10,8 @@ public class Main {
             reader=new BufferedReader(new FileReader(file));
             while ((line=reader.readLine())!=null)
             {
-                System.out.println(line);
+                System.out.print(line);
+                System.out.println();
             }
         }
         catch (Exception e){
